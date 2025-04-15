@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(214, 227, 227);
+}
+
+.swiper {
+    width: 100%;
+    max-width: 1200px; /* Kaydırıcının genişliği sınırlı */
+    margin: auto; /* Ortalamak için */
+    background-color: beige;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column; /* Videolar ve başlık dikey hizalanır */
+    align-items: center; /* Ortalanır */
+    justify-content: center;
+}
+
+video {
+    width: 320px; /* Sabit genişlik */
+    height: 180px; /* Sabit yükseklik */
+    object-fit: cover; /* Görüntü bozulmadan boyutlandırılır */
+    border: 1px solid #ccc; /* İsteğe bağlı, çerçeve eklemek için */
+}
